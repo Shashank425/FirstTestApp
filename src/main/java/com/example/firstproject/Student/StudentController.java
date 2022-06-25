@@ -15,7 +15,6 @@ public class StudentController {
 
     @GetMapping("/api/student")
     public List<Student> getStudents(){
-
        return studentService.getStudents();
     }
 }
